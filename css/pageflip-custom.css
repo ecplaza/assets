@@ -1,0 +1,475 @@
+/*
+
+		Global Pageflip Styles
+		
+*/
+#pageflip {
+	width: 100%;
+	background: #ececec;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+}
+#pf-pagerin {
+	font-family: "Fauna One", "Lucida Grande", Helvetica, sans-serif;
+}
+#pf-stage {
+	background: #ececec;
+}
+/*
+	
+		Container HTML Page Styles
+		
+*/
+body {
+	margin: 0;
+}
+
+/*
+
+		template 1 - Meet Pageflip Styles
+
+*/
+.pf-page-container.pf-left-side.meetpageflip {
+	border-radius: 10px 0 0 10px;
+}
+#thevideo,
+.pf-page-container.pf-right-side.meetpageflip {
+	border-radius: 0 10px 10px 0;
+}
+#pf-dropshadow.meetpageflip {
+	border-radius: 20px;
+}
+.meetpageflip {
+	font-size: 13px;
+	font-family: "Fauna One", "Lucida Grande", Helvetica, sans-serif;
+}
+.meetpageflip a {
+	color: #00B7F0;
+}
+.pf-page-container.meetpageflip {
+	background: #f2f2f2;
+}
+.pf-page-container.meetpageflip.pf-outer {
+	background: none;
+}
+.meetpageflip #userguide h1,
+.meetpageflip #userguide h2,
+.meetpageflip #thankyou h1,
+.meetpageflip #thankyou h2,
+.meetpageflip #developercontent h4,
+.meetpageflip .dintext {
+	text-transform: uppercase;
+	font-family: DINNextLTPro-Heavy, Impact, Helvetica;
+	font-weight: normal;
+	font-style: normal;
+}
+.meetpageflip .dintext a:hover {
+	text-decoration: none;
+}
+.meetpageflip p {
+	margin: 0 0 3px 0;
+	padding: 0;
+	line-height: 14px;
+	color: #333;
+}
+.meetpageflip .pagenumber {
+	float: right;
+}
+.meetpageflip .pf-left-side .pagenumber {
+	float: left;
+	margin-right: 32px;
+}
+.meetpageflip .footertext {
+	position: absolute;
+	bottom: 4px;
+	left: 32px;
+	width: 580px;
+}
+.meetpageflip .footertext p span.larger {
+	font-size: 138%;
+}
+.meetpageflip .footertext p {
+	color: #4d4d4d;
+}
+
+.meetpageflip #coverheading {
+	position: absolute;
+	top: 148px;
+	left: 32px;
+}
+.meetpageflip #covertitles {
+	position: absolute;
+	top: 216px;
+	right: 32px;
+	text-align: right;
+}
+.meetpageflip #covertitles p {
+	margin: 0 0 10px 0;
+	font-size: 20px;
+	line-height: 20px;
+	color: #f2f2f2;	
+}
+.meetpageflip #userguide {
+	position: absolute;
+	top: 140px;
+	left: 60px;
+	opacity: 0.2;
+}
+.meetpageflip #userguide:hover {
+	opacity: 0.7;
+}
+.meetpageflip #userguide h1,
+.meetpageflip #userguide h2,
+.meetpageflip #userguide p {
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+}
+.meetpageflip #userguide h1 {
+	font-size: 30px;
+}
+.meetpageflip #userguide h2 {
+	font-size: 20px;
+}
+.meetpageflip #userguide p {
+	margin: 26px 0 3px 0;
+	line-height: 14px;
+}
+#page3.meetpageflip {
+	background: #ededed;
+}
+.meetpageflip .header {
+	position: absolute;
+	top: 38px;
+	left: 28px;
+	max-width: 380px;
+}
+.meetpageflip #tocintro {
+	position: absolute;
+	top: 148px;
+	left: 32px;
+	opacity: 0.5;
+	max-width: 386px;
+}
+.meetpageflip #toc {
+	position: absolute;
+	left: 0;
+	font-size: 20px;
+}
+.meetpageflip .linklist ul {
+	margin: 0;
+	padding: 0;
+}
+.meetpageflip .linklist ul p {
+	margin: 0 0 5px 0;
+	padding: 0 0 0 32px;
+	opacity: 0.25;
+}
+.meetpageflip .linklist ul li {
+	list-style: none;
+	margin: -4px 0 0 0;
+	padding: 0 0 0 32px;
+	width: 418px;
+	color: #00b7f0;
+	cursor: pointer;
+}
+.meetpageflip .linklist ul li:hover {
+	background: url( ../images/ebook/linkback.svg ) no-repeat left top;
+	color: #f2f2f2;
+}
+.meetpageflip #featurelist {
+	position: absolute;
+	top: 174px;
+	left: 0;
+	max-width: 386px;
+}
+.meetpageflip .optionlist ul {
+	margin: 0;
+	padding: 0;
+}
+.meetpageflip .optionlist ul li {
+	list-style: none;
+	margin: -3px 0 0 0;
+	padding: 5px 0 2px 32px;
+	width: 418px;
+	cursor: pointer;
+}
+.meetpageflip .optionlist ul li:hover {
+	background: url( ../images/ebook/optionback.svg ) no-repeat left top;
+}
+.meetpageflip .optionlist ul li.selected,
+.meetpageflip .optionlist ul li.selected:hover {
+	background: url( ../images/ebook/optionback_selected.svg ) no-repeat left top;
+}
+.meetpageflip .optionlist ul li:hover,
+.meetpageflip .optionlist ul li.selected {
+	color: rgba( 255,255,255, 0.5 );
+}
+.meetpageflip .optionlist li {
+	color: rgba( 77,77,77, 0.5 );
+}
+.meetpageflip .optionlist a:hover {
+	text-decoration: none;
+}
+.meetpageflip #browsericons {
+	position: absolute;
+	top: 460px;
+	left: 32px;
+}
+.meetpageflip #videodescription {
+	position: absolute;
+	top: 148px;
+	left: 32px;
+	opacity: 0.5;
+	max-width: 386px;
+}
+.meetpageflip #videodescription p {
+	color: #ededed;
+}
+.meetpageflip video {
+	-webkit-mask: url( ../images/ebook/mask_right.svg );
+}
+.meetpageflip #playpause {
+	position: absolute;
+	top: 196px;
+	left: 32px;
+	opacity: 0.5;
+	cursor: pointer;
+}
+.meetpageflip #playpause:hover {
+	opacity: 1;
+}
+.meetpageflip .alt p {
+	color: #ededed;
+}
+.meetpageflip #trasparencypage {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.meetpageflip #trasparencytext {
+	position: absolute;
+	top: 512px;
+	left: 32px;
+	opacity: 0.5;
+	max-width: 386px;
+}
+.meetpageflip .features {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 450px;
+	height: 600px;
+	overflow: hidden;
+	opacity: 1;
+}
+.meetpageflip .features div {
+	position: absolute;
+	left: 66px;
+	max-width: 318px;
+}
+.meetpageflip .features div p {
+	color: #f2f2f2;
+	opacity: 0.5;
+	margin-left: 3px;
+}
+.meetpageflip .features.off {
+	/*display: none;*/
+	opacity: 0;
+}
+.meetpageflip .textheader {
+	margin-left: 4px;
+	margin-top: 6px;
+	opacity: 0.5;
+}
+.meetpageflip #textdemo {
+	position: absolute;
+	top: 132px;
+	left: 32px;
+	max-width: 386px;
+}
+.meetpageflip #textdemo2 {
+	position: absolute;
+	top: 42px;
+	left: 32px;
+	max-width: 386px;
+}
+.meetpageflip .textdemo p {
+	font-size: 10px;
+	margin: 0 0 12px 0;
+}
+.meetpageflip .leftimage {
+	float: left;
+	margin: 2px 24px 20px 0;
+}
+.meetpageflip #developercontent {
+	position: absolute;
+	top: 192px;
+	left: 32px;
+	max-width: 386px;
+}
+.meetpageflip #developercontent h4 {
+	margin: 0 0 8px 0;
+	padding: 0;
+	opacity: 0.5;
+}
+.meetpageflip #developercontent p {
+	margin: -8px 0 16px 0;
+	padding: 0;
+	font-size: 12px;
+}
+.meetpageflip #pdfconvertercontent {
+	position: absolute;
+	top: 200px;
+	left: 32px;
+	opacity: 0.5;
+	max-width: 386px;
+}
+.meetpageflip #pdfconvertercontent p {
+	color: #f2f2f2;
+}
+.meetpageflip #spiralwrapper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 450px;
+	height: 600px;
+	overflow: hidden;
+	-webkit-mask: url( ../images/ebook/mask_right.svg ) no-repeat;
+}
+.meetpageflip #spiral {
+	position: absolute;
+	top: -84px;
+	left: -159px;
+	width: 768px;
+	height: 768px;
+	overflow: hidden;
+	background: url( ../images/ebook/spiral.svg ) no-repeat center center;
+}
+.meetpageflip .animationcontrol {
+	position: absolute;
+	left: 32px;
+	width: 215px;
+	height: 41px;
+	overflow: hidden;
+	opacity: 0.7;
+}
+.meetpageflip .animationcontrol:hover {
+	opacity: 1;
+}
+.meetpageflip #animateontop {
+	top: 44px;
+	background: url( ../images/ebook/animate_top_off.svg ) no-repeat left top;
+}
+.meetpageflip #animateontop.selected {
+	background: url( ../images/ebook/animate_top_on.svg ) no-repeat left top;
+}
+.meetpageflip #animateonvisible {
+	top: 94px;
+	background: url( ../images/ebook/animate_visible_off.svg ) no-repeat left top;
+}
+.meetpageflip #animateonvisible.selected {
+	background: url( ../images/ebook/animate_visible_on.svg ) no-repeat left top;
+}
+.meetpageflip #eventcontent {
+	position: absolute;
+	top: 194px;
+	left: 32px;
+	opacity: 0.5;
+	max-width: 386px;
+}
+.meetpageflip #eventflags {
+	position: absolute;
+	top: 330px;
+	left: 64px;
+	width: 346px;
+}
+.meetpageflip #eventflags p {
+	opacity: 0.5;
+}
+.meetpageflip #eventflags img {
+	clear: left;
+	float: left;
+	margin-bottom: 9px;
+	margin-right: 20px;
+	opacity: 0.25;
+}
+.meetpageflip #eventflags img.selected {
+	opacity: 1;
+}
+.meetpageflip .features {
+	-webkit-transition: opacity 1s;
+	-moz-transition:    opacity 1s;
+	-o-transition: 	    opacity 1s;
+	-ms-transition:     opacity 1s;
+	transition: 	    opacity 1s;
+}
+.meetpageflip #userguide,
+.meetpageflip #thankyou,
+.meetpageflip #playpause,
+.meetpageflip .animationcontrol {
+	-webkit-transition: opacity 0.5s;
+	-moz-transition:    opacity 0.5s;
+	-o-transition: 	    opacity 0.5s;
+	-ms-transition:     opacity 0.5s;
+	transition: 	    opacity 0.5s;
+}
+.meetpageflip #animatecontent {
+	position: absolute;
+	top: 160px;
+	left: 32px;
+	opacity: 0.7;
+	max-width: 386px;
+}
+.meetpageflip #thankyou {
+	position: absolute;
+	top: 342px;
+	left: 66px;
+	opacity: 0.2;
+	text-align: center;
+	width: 318px;
+}
+.meetpageflip #thankyou h2 {
+	line-height: 90%;
+}
+.meetpageflip #thankyou:hover {
+	opacity: 0.7;
+}
+.meetpageflip #thankyou h1,
+.meetpageflip #thankyou h2,
+.meetpageflip #thankyou p {
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+}
+.meetpageflip #thankyou h1 {
+	font-size: 30px;
+}
+.meetpageflip #thankyou h2 {
+	font-size: 20px;
+}
+.meetpageflip #thankyou p {
+	margin: 26px 0 3px 0;
+	line-height: 14px;
+}
+.meetpageflip #backqr {
+	position: absolute;
+	top: 441px;
+	left: 32px;
+	width: 108px;
+	height: 159px;
+	background: #fff;
+	overflow: hidden;
+}
+.meetpageflip #backqr img {
+	opacity: 0.75;
+}
+.meetpageflip #backqr p {
+	margin-left: 4px;
+}
+.meetpageflip #backcredits {
+	position: absolute;
+	top: 550px;
+	left: 115px;
+}
