@@ -1,5 +1,3 @@
-.wt-content-toggle__body{max-height:0;overflow:hidden;visibility:hidden}.wt-content-toggle__body[aria-hidden=false]{visibility:visible;max-height:none;overflow:visible}.wt-content-toggle__body.wt-content-toggle--is-animating{overflow:hidden;transition:max-height .2s ease-in}.wt-content-toggle--btn[aria-expanded=false] .wt-content-toggle--btn__icon{transform:rotate(-180deg)}.wt-content-toggle--btn__icon{position:relative;display:inline-block;content:"";height:16px;width:16px;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23FFF' d='M12 15.414l-4.707-4.707a1 1 0 1 1 1.414-1.414L12 12.586l3.293-3.293a1 1 0 0 1 1.414 1.414z'/%3E%3C/svg%3E");transition:all .3s}.wt-content-toggle--btn.wt-content-toggle--with-icon{display:inline-flex;align-items:center;justify-content:space-between;text-align:left}.wt-content-toggle--btn.w-full{width:calc(100% + 2*18px);margin-left:-18px;margin-right:-18px}
-
 /*!
  * Waves v0.7.6
  * http://fian.my.id/Waves 
