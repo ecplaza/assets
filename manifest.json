@@ -1,0 +1,25 @@
+{
+    "name": "ecplaza.net",
+    "short_name": "ECPlaza",
+    "icons": [
+        {
+            "src": "https://image1.ecplaza.com/icons/android-chrome-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "https://image1.ecplaza.com/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://image1.ecplaza.com/icons/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#3498db",
+    "background_color": "#3498db",
+    "display": "standalone",
+    "start_url": "/?utm_source=homescreen"
+}
